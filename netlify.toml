@@ -1,4 +1,9 @@
 [[redirects]]
-from = "/using-typescript"
-to = "https://futuregerald-requestbin.herokuapp.com/1dl9irz1"
-status = 200
+    from = "/using-typescript"
+    to = "https://futuregerald-requestbin.herokuapp.com/1dl9irz1"
+    status = 200
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+    my-header: "netlify rocks"
