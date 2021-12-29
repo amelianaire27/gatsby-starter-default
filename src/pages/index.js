@@ -41,10 +41,10 @@ const IndexPage = () => (
       </p>
     </form>
     <form type="hidden" data-netlify="true">
-      <input name="name"></input>
-      <input name="email"></input>
-      <input name="role[]"></input>
-      <input name="message"></input>
+      <input name="name" type="hidden"></input>
+      <input name="email" type="hidden"></input>
+      <input name="role[]" type="hidden"></input>
+      <input name="message" type="hidden"></input>
     </form>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
