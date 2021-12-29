@@ -19,7 +19,7 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>   
       </p>
